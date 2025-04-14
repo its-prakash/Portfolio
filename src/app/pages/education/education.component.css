@@ -1,0 +1,58 @@
+.education-item,
+    .experience-item {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .education-item:hover,
+    .experience-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .education-item h2,
+    .experience-item h2 {
+        color: #007bff; /* Primary color */
+        transition: color 0.3s ease;
+    }
+
+    .education-item:hover h2,
+    .experience-item:hover h2 {
+        color: #0056b3; /* Darker primary color on hover */
+    }
+
+    .education-item p,
+    .experience-item p,
+    .education-item h3,
+    .experience-item li {
+        transition: opacity 0.3s ease;
+        opacity: 0.9;
+    }
+
+    .education-item:hover p,
+    .experience-item:hover p,
+    .education-item:hover h3,
+    .experience-item:hover li {
+        opacity: 1;
+    }
+
+    .main-container h1 {
+        position: relative;
+    }
+
+    .main-container h1::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: -5px;
+        left: 0;
+        background-color: #007bff;
+        transform-origin: bottom right;
+        transition: transform 0.3s ease-out; 
+    }
+
+    .main-container h1:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }

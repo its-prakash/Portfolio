@@ -1,0 +1,75 @@
+.body {
+    /* background-color: #212529; */
+    background-color: black;
+    min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .pt-10 {
+      padding-top: 7rem;
+    }
+  }
+  
+
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.download_CV {
+    margin-top: 1rem;
+    /* mt-4 */
+    display: inline-flex;
+    /* inline-flex */
+    align-items: center;
+    /* item-center */
+    gap: 0.5rem;
+    /* gap-2 */
+    background-image: linear-gradient(to right, #7A0BC0, #FF69B4);
+    /* bg-gradient-to-r from-purple-500 to-pink-600 */
+    color: #FFFFFF;
+    /* text-white */
+    padding: 1.5rem 2.5rem;
+    /* px-6 py-3 */
+    border-radius: 0.75rem;
+    /* rounded-xl */
+    font-size: 1.125rem;
+    /* text-lg */
+    font-weight: 600;
+    /* semibold */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* shadow-lg */
+    transition: all 300ms;
+    /* transition all duration-300 */
+}
+
+
+.download_CV:hover {
+    background-image: linear-gradient(to right, #6c5ce7, #FF69B4);
+    /* hover:from-purple-600 hover:to-pink-700 */
+    transform: scale(1.05);
+    /* hover:scale-105 */
+}
+
+.img_div {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    border: .5rem solid white;
+    /* background-image: url("../../../assets/images/prakash_gibhli.jpg"); */
+}
+
+img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-purple{
+    color: rgb(221, 28, 227);
+}
+

@@ -1,0 +1,21 @@
+.glowing-input {
+    background-color: transparent !important;
+    border: 1px solid #0dcaf0; /* Bootstrap's info color */
+    color: #fff !important;
+    box-shadow: 0 0 5px rgba(13, 202, 240, 0.5); /* Subtle glow */
+}
+
+.glowing-input:focus {
+    border-color: #0dcaf0 !important;
+    box-shadow: 0 0 10px rgba(13, 202, 240, 0.8) !important; /* Stronger glow on focus */
+    outline: none !important; /* Remove default focus outline */
+}
+
+.form-floating > label {
+    color: #aaa;
+}
+
+.form-floating.focused > label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    color: #0dcaf0;
+}

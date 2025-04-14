@@ -1,0 +1,25 @@
+.navbar {
+  background-color: transparent;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: white;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: rgb(244, 244, 119);
+  }
+  
+  .nav-link.active {
+    color: #fff;
+    /* border-bottom: 2px solid #fff; */
+  }
+  
+  

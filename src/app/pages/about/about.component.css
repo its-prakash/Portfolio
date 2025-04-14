@@ -1,0 +1,20 @@
+/* .font-bold {
+    font-weight: bold;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+} */
+
+h1{
+    font-size: 2rem;
+}
