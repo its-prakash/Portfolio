@@ -58,7 +58,7 @@ p {
 
 .img_div {
     height: 25rem;
-    width: 25rem;
+    width: rem;
     border-radius: 50%;
     border: .5rem solid white;
     /* background-image: url("../../../assets/images/prakash_gibhli.jpg"); */
